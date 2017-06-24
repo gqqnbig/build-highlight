@@ -3,7 +3,8 @@ node tools\build.js -t browser `
 xml `
 bash `
 autohotkey `
-sql
+sql `
+mathematica
 
 
 #rm ..\highlight.pack.js
