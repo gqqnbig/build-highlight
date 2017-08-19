@@ -4,7 +4,8 @@ xml `
 bash `
 autohotkey `
 sql `
-mathematica
+mathematica `
+vbnet
 
 
 #rm ..\highlight.pack.js
