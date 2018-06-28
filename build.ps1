@@ -1,14 +1,18 @@
 ﻿cd highlight.js
+npm install 
 node tools\build.js -t browser `
-xml `
-bash `
 autohotkey `
-sql `
+bash `
+javascript `
 mathematica `
-vbnet
+sql `
+vbnet `
+xml
 
 
 #rm ..\highlight.pack.js
 copy -Force .\build\highlight.pack.js ..\
 #rm ..\styles
 copy -Force -Recurse .\build\demo\styles ..\
+
+cd ..
