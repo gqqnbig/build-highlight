@@ -5,6 +5,7 @@ npm install
 node tools\build.js -t browser `
 autohotkey `
 bash `
+cpp `
 javascript `
 mathematica `
 plaintext `
