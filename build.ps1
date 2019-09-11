@@ -6,6 +6,7 @@ node tools\build.js -t browser `
 autohotkey `
 bash `
 cpp `
+cs `
 javascript `
 mathematica `
 plaintext `
