@@ -1,4 +1,5 @@
-﻿git submodule update --remote highlight.js
+﻿# 更新子模块
+# git submodule update --remote highlight.js
 cd highlight.js
 npm install 
 
@@ -7,6 +8,7 @@ autohotkey `
 bash `
 cpp `
 csharp `
+dockerfile `
 javascript `
 mathematica `
 plaintext `
