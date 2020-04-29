@@ -6,10 +6,11 @@ node tools\build.js -t browser `
 autohotkey `
 bash `
 cpp `
-cs `
+csharp `
 javascript `
 mathematica `
 plaintext `
+python `
 sql `
 vbnet `
 xml
@@ -17,8 +18,12 @@ xml
 
 
 
-rm ..\highlight.pack.js
-copy -Force .\build\highlight.pack.js ..\
-rm -Recurse ..\styles
+if (Test-Path ..\highlight.pack.js  -PathType Leaf) {
+	rm ..\highlight.pack.js
+}
+copy -Force .\build\highlight.min.js ..\
+if (Test-Path ..\styles -PathType Container) {
+	rm -Recurse ..\styles
+}
 copy -Force -Recurse .\build\demo\styles ..\
 
