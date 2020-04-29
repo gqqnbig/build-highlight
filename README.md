@@ -8,7 +8,7 @@
 git submodule update --init
 ```
 
-在Linux上解压缩zip文件
+在Linux上解压缩zip文件（不能用`tar`）
 
 ```
 unzip styles.zip
