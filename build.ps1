@@ -10,6 +10,7 @@ cpp `
 csharp `
 dockerfile `
 javascript `
+latex `
 mathematica `
 plaintext `
 python `
@@ -20,8 +21,8 @@ xml
 
 
 
-if (Test-Path ..\highlight.pack.js  -PathType Leaf) {
-	rm ..\highlight.pack.js
+if (Test-Path ..\highlight.min.js  -PathType Leaf) {
+	rm ..\highlight.min.js
 }
 copy -Force .\build\highlight.min.js ..\
 if (Test-Path ..\styles -PathType Container) {
