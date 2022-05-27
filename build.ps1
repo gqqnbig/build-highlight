@@ -14,6 +14,7 @@ latex `
 mathematica `
 plaintext `
 python `
+shell `
 sql `
 vbnet `
 xml
